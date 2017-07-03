@@ -1,0 +1,14 @@
+<div>
+    <h2>Hi {{currentUser.data.user.firstName}}!</h2>
+    <a routerLink="/login">
+    <button pButton type="button" icon="fa fa-sign-out" iconPos="left" style="float: right;" label="Logout"></button>
+    </a>
+</div>
+
+<p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu>
+
+<router-outlet></router-outlet>
+
+<br/>
+<button pButton type="button" icon="fa fa-refresh" iconPos="left" style="float: right;" label="Sync" (click)="syncing()">
+</button>

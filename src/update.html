@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Healthcoco</title>
+  <meta charset="UTF-8">
+  <base href="./">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="../node_modules/core-js/client/shim.min.js"></script>
+  <script src="../node_modules/zone.js/dist/zone.js"></script>
+  <script src="../node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="../node_modules/systemjs/dist/system.src.js"></script>
+</head>
+<body>
+<main class="col-md-6 col-md-offset-3">
+    <div class="container">
+      <section class="container-check">
+        <div class="centre box">
+          <a class="btn btn-primary" id="btn-update">Check for Updates</a>
+        </div><br />
+        <div class="left box">
+          <label>Current version: <span id="version"></span></label><br />
+          <label>Current build: <span id="build"></span></label><br/>
+        </div>
+      </section><br/>
+
+      <section class="container-install">
+        <p>New version <span id="new-version"></span> available.</p>
+        <a class="btn btn-primary" id="btn-install">Install</a><br/>
+      </section>
+    </div>
+  </main>
+  <div class="container"><br/>
+    <section class="col-md-6 col-md-offset-3">
+      <label>Log messages</label>
+      <div id="log-messages" class="messages"><br/>
+        <p>[info] Starting the Application</p><br/>
+      </div>
+    </section>
+  </div>
+</body>
+<script>
+    require('./updaterenderer.js')
+
+</script>
+</body>
+</html>

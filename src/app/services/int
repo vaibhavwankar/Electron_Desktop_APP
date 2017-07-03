@@ -1,0 +1,155 @@
+
+{
+            firstName: data.firstName,
+            localPatientName: data.localPatientName,
+            mobileNumber: data.mobileNumber,
+            gender: "",
+            groups: [],
+            bloodGroup: "",
+            profession: "",
+            relations: [
+            { 
+                name:"", 
+                relation:"Relation" 
+            }
+            ],
+            secMobile: "",
+            adhaarId: "",
+            panCardNumber: "",
+            age: "",
+            emailAddress: '',
+            drivingLicenseId: "",
+            insuranceId: "",
+            insuranceName: "",
+            notes: null,
+            dateOfVisit: 1498287613,
+            patientNumber:null,
+            referredBy: null,
+            locationId: data.locationId,
+            hospitalId: data.hospitalId,
+            doctorId: data.doctorId,
+            dob: {
+                days: 0,
+                months: 0,
+                years: 0,
+                age: {
+                    days: 0,
+                    months: 0,
+                    years: 0
+                }
+            },
+            address: {
+                country: 'india',
+                city: '',
+                state: '',
+                postalCode: '',
+                locality: '',
+                latitude: '',
+                longitude: '',
+                streetAddress: ''
+            },
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  userId:data.id ,
+  firstName:data.firstName ,
+  localPatientName:data.localPatientName ,
+  mobileNumber: data.mobileNumber,
+  gender:data.gender ,
+  dob: {
+    days: 0,
+    months: 0,
+    years: 0,
+    age: {
+      days: 0,
+      months: 0,
+      years: 0
+    }
+  },
+  age: 0,
+  image: {
+    fileEncoded: "string",
+    fileDecoded: "string",
+    fileName: "string",
+    fileExtension: "string"
+  },
+  emailAddress: "",
+  groups: [],
+  bloodGroup: data.bloodGroup,
+  profession:data.profession ,
+  relations: [],
+  secMobile: data.secMobile,
+  adhaarId: data.adhaarId,
+  panCardNumber: data.panCardNumber,
+  drivingLicenseId: data.drivingLicenseId,
+  insuranceId: data.insuranceId,
+  insuranceName: data.insuranceName,
+  notes: [],
+ address: {
+   
+                country: "",
+                city: "",
+                state: "",
+                postalCode: "",
+                locality: "",
+                latitude: 0,
+                longitude: 0,
+                streetAddress: ""
+  },
+  dateOfVisit: 0,
+  pastHistoryId: data.pastHistoryId,
+  medicalHistoryId: data.medicalHistoryId,
+  patientNumber: data.patientNumber,
+  referredBy: {
+    createdTime: "2017-06-26T10:01:12.968Z",
+    updatedTime: "2017-06-26T10:01:12.968Z",
+    createdBy: "",
+    discarded: false
+    id: data.referredBy.id,
+    reference: data.referredBy.reference,
+    doctorId: data.doctorId,
+    locationId: data.locationId,
+    hospitalId: data.hospitalId,
+  },
+  locationId: data.locationI,
+  hospitalId: data.hospitalId,
+  doctorId: data.doctorId,
+  regularCheckUpMonths: 0,
+  role: "",
+  registrationDate: 0
+}
